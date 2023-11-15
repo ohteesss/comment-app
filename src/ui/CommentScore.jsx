@@ -1,4 +1,4 @@
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import Button from "./ScoreButton";
 import { changeScore } from "../features/CommentSlice";
 import { useContext } from "react";

@@ -4,13 +4,11 @@ import CommentUser from "./CommentUser";
 import CommentText from "./CommentText";
 import CreateComment from "./createComment";
 import { useDispatch } from "react-redux";
-import { addnewReply } from "../features/CommentSlice";
 import CommentAction from "./CommentAction";
 
 export const replyContext = createContext();
 function CommentReply({ reply }) {
   const [newEditId, setNewEditId] = useState("");
-  const dispatch = useDispatch();
   const { id } = reply;
   const [newCommentId, setNewCommentId] = useState(null);
   function handleReplyClick(id) {

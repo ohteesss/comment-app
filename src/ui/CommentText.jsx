@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { commentContext } from "./Comment";
 import { replyContext } from "./CommentReply";
 import CommentButton from "./CommentButton";

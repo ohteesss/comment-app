@@ -12,8 +12,7 @@ function CommentAction({ handleClick, editId }) {
   const username = useSelector((state) => state.user.username);
   const {
     id,
-    user: { image, username: commentUsername },
-    createdAt,
+    user: { username: commentUsername },
   } = useContext(commentContext) || useContext(replyContext);
 
   function handleEdit() {
