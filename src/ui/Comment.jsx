@@ -3,7 +3,7 @@ import CommentUser from "./CommentUser";
 import CommentText from "./CommentText";
 import { createContext, useState } from "react";
 import CommentReply from "./CommentReply";
-import CreateComment from "./createComment";
+import CreateComment from "./CreateComment";
 import CommentAction from "./CommentAction";
 // import "../../index.css";
 

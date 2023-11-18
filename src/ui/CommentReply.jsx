@@ -2,8 +2,7 @@ import { createContext, useState } from "react";
 import CommentScore from "./CommentScore";
 import CommentUser from "./CommentUser";
 import CommentText from "./CommentText";
-import CreateComment from "./createComment";
-import { useDispatch } from "react-redux";
+import CreateComment from "./CreateComment";
 import CommentAction from "./CommentAction";
 
 export const replyContext = createContext();

@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
 import Comment from "./Comment";
-import CreateComment from "./createComment";
+import CreateComment from "./CreateComment";
 
 export const commentss = [
   {
