@@ -15,8 +15,6 @@ This is a solution to the [Interactive comments section challenge on Frontend Me
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,10 +34,11 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](hhttps://comment-app-alpha.vercel.app/)
 
 ## My process
+
+Built the static form starting with Desktop first design, used redux for global UI state management and data storage.
 
 ### Built with
 
@@ -58,5 +57,5 @@ I practiced more of REDUX in this project
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/ohteesss)
-- Twitter - [@yourusername](https://www.twitter.com/ohteesss)
+- Frontend Mentor - [@ohteesss](https://www.frontendmentor.io/profile/ohteesss)
+- Twitter - [@ohteesss](https://twitter.com/OluwatobiOjo5)
